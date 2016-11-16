@@ -1,0 +1,6 @@
+all:main
+main:	E2.o
+	gcc	-o	main	E2.o -lm
+
+E2.o:	E2.c	color.h
+	gcc	-c	E2.c

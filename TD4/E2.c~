@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int Factorielle (int a)
+{
+return 1;
+}
+
+int main ()
+{
+int valeur=0;
+int result = Factorielle (valeur);
+if (result !=1)
+printf (" le test a raté");
+valeur =1;
+result = Factorielle (valeur);
+if (result !=1)
+printf("le test a raté \n ");
+}

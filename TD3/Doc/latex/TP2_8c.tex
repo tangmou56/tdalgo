@@ -1,0 +1,101 @@
+\hypertarget{TP2_8c}{\section{Référence du fichier T\-P2.\-c}
+\label{TP2_8c}\index{T\-P2.\-c@{T\-P2.\-c}}
+}
+
+
+Programme qui affiche les donnés d'une tableau.  
+
+
+{\ttfamily \#include $<$stdio.\-h$>$}\\*
+{\ttfamily \#include $<$string.\-h$>$}\\*
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{structt__date}{t\-\_\-date}
+\begin{DoxyCompactList}\small\item\em structure pour définir le date \end{DoxyCompactList}\item 
+struct \hyperlink{structt__personne}{t\-\_\-personne}
+\begin{DoxyCompactList}\small\item\em structure pour définir une personne \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{TP2_8c_a0240ac851181b84ac374872dc5434ee4}{\#define {\bfseries N}~50}\label{TP2_8c_a0240ac851181b84ac374872dc5434ee4}
+
+\end{DoxyCompactItemize}
+\subsection*{Énumérations}
+\begin{DoxyCompactItemize}
+\item 
+enum \hyperlink{TP2_8c_ab79b8b73374184bdb09815f42faf71d2}{t\-\_\-sexe} \{ \hyperlink{TP2_8c_ab79b8b73374184bdb09815f42faf71d2ae2de6fd0354f5be7adf86493b6e0d8e7}{homme} = 1, 
+\hyperlink{TP2_8c_ab79b8b73374184bdb09815f42faf71d2acc021e5a015e8373d8f738b420eca4b5}{femme}
+ \}
+\begin{DoxyCompactList}\small\item\em enum pour définir le sex \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Fonctions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{TP2_8c_a9d20ffd6a650a8f9604d97c4421b1458}{afficher\-\_\-base} (\hyperlink{structt__personne}{t\-\_\-personne} $\ast$amis, int nb\-\_\-amis)
+\begin{DoxyCompactList}\small\item\em fonction qui affiche les bases \end{DoxyCompactList}\item 
+\hypertarget{TP2_8c_aa545bd5a6e052fa340f5d1740bf83f52}{void \hyperlink{TP2_8c_aa545bd5a6e052fa340f5d1740bf83f52}{afficher\-\_\-nombre\-\_\-fh} (\hyperlink{structt__personne}{t\-\_\-personne} $\ast$amis, int nb\-\_\-amis)}\label{TP2_8c_aa545bd5a6e052fa340f5d1740bf83f52}
+
+\begin{DoxyCompactList}\small\item\em affiche le nombre de hommes et femmes \end{DoxyCompactList}\item 
+\hypertarget{TP2_8c_aedf3d82f53153e7c2e528192d0fea8ac}{void \hyperlink{TP2_8c_aedf3d82f53153e7c2e528192d0fea8ac}{afficher\-\_\-cadet} (\hyperlink{structt__personne}{t\-\_\-personne} $\ast$amis, int nb\-\_\-amis)}\label{TP2_8c_aedf3d82f53153e7c2e528192d0fea8ac}
+
+\begin{DoxyCompactList}\small\item\em affiche le plus jeune \end{DoxyCompactList}\item 
+\hypertarget{TP2_8c_acc9d89938c13a5fc04ad6434f0b5d795}{void \hyperlink{TP2_8c_acc9d89938c13a5fc04ad6434f0b5d795}{afficher\-\_\-anniv} (\hyperlink{structt__personne}{t\-\_\-personne} $\ast$amis, int nb\-\_\-amis)}\label{TP2_8c_acc9d89938c13a5fc04ad6434f0b5d795}
+
+\begin{DoxyCompactList}\small\item\em affiche l'anniversaire d'un personne \end{DoxyCompactList}\item 
+\hypertarget{TP2_8c_a06a7237f8177981d1d0a937807752438}{void \hyperlink{TP2_8c_a06a7237f8177981d1d0a937807752438}{ajouter\-\_\-personne} (\hyperlink{structt__personne}{t\-\_\-personne} $\ast$amis, int $\ast$nb\-\_\-amis)}\label{TP2_8c_a06a7237f8177981d1d0a937807752438}
+
+\begin{DoxyCompactList}\small\item\em ajouter une personne dans la liste \end{DoxyCompactList}\item 
+\hypertarget{TP2_8c_ae66f6b31b5ad750f1fe042a706a4e3d4}{int {\bfseries main} ()}\label{TP2_8c_ae66f6b31b5ad750f1fe042a706a4e3d4}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Description détaillée}
+Programme qui affiche les donnés d'une tableau. \begin{DoxyAuthor}{Auteur}
+T\-A\-N\-G Y\-U\-K\-E 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1.\-0 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+17 octobre 2016 
+\end{DoxyDate}
+
+
+\subsection{Documentation du type de l'énumération}
+\hypertarget{TP2_8c_ab79b8b73374184bdb09815f42faf71d2}{\index{T\-P2.\-c@{T\-P2.\-c}!t\-\_\-sexe@{t\-\_\-sexe}}
+\index{t\-\_\-sexe@{t\-\_\-sexe}!TP2.c@{T\-P2.\-c}}
+\subsubsection[{t\-\_\-sexe}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf t\-\_\-sexe}}}\label{TP2_8c_ab79b8b73374184bdb09815f42faf71d2}
+
+
+enum pour définir le sex 
+
+\begin{Desc}
+\item[Valeurs énumérées]\par
+\begin{description}
+\index{homme@{homme}!T\-P2.\-c@{T\-P2.\-c}}\index{T\-P2.\-c@{T\-P2.\-c}!homme@{homme}}\item[{\em 
+\hypertarget{TP2_8c_ab79b8b73374184bdb09815f42faf71d2ae2de6fd0354f5be7adf86493b6e0d8e7}{homme}\label{TP2_8c_ab79b8b73374184bdb09815f42faf71d2ae2de6fd0354f5be7adf86493b6e0d8e7}
+}]homme \index{femme@{femme}!T\-P2.\-c@{T\-P2.\-c}}\index{T\-P2.\-c@{T\-P2.\-c}!femme@{femme}}\item[{\em 
+\hypertarget{TP2_8c_ab79b8b73374184bdb09815f42faf71d2acc021e5a015e8373d8f738b420eca4b5}{femme}\label{TP2_8c_ab79b8b73374184bdb09815f42faf71d2acc021e5a015e8373d8f738b420eca4b5}
+}]femme \end{description}
+\end{Desc}
+
+
+\subsection{Documentation des fonctions}
+\hypertarget{TP2_8c_a9d20ffd6a650a8f9604d97c4421b1458}{\index{T\-P2.\-c@{T\-P2.\-c}!afficher\-\_\-base@{afficher\-\_\-base}}
+\index{afficher\-\_\-base@{afficher\-\_\-base}!TP2.c@{T\-P2.\-c}}
+\subsubsection[{afficher\-\_\-base}]{\setlength{\rightskip}{0pt plus 5cm}void afficher\-\_\-base (
+\begin{DoxyParamCaption}
+\item[{{\bf t\-\_\-personne} $\ast$}]{amis, }
+\item[{int}]{nb\-\_\-amis}
+\end{DoxyParamCaption}
+)}}\label{TP2_8c_a9d20ffd6a650a8f9604d97c4421b1458}
+
+
+fonction qui affiche les bases 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em sex} & cette chaine de caractère est pour afficher homme ou femme \\
+\hline
+\end{DoxyParams}
